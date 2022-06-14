@@ -9,7 +9,7 @@ export default function BingoCell({storageId, children}) {
 
     // same as componentDidMount
     useEffect(() => {
-        setValue(localStorage.getItem(storageId));
+        setValue(localStorage.getItem(storageId) || -1);
     }, []);
 
     useEffect(() => {

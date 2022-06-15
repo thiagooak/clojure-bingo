@@ -17,10 +17,9 @@ export default function BingoCell({storageId, children}) {
     }, [storageId, value]);
 
     return (
-        <div className={(value < 0) ? 'bg-black' : 'bg-white'}>
-            <div onClick={onClick}>
-                {children}
-            </div>
+        <div onClick={onClick} className="w-64 h-64 bg-white p-2 m-2" >
+            {value > 0 && (<div className="text-6xl float-right">✔️</div>)}
+            {children}
         </div>
     );
 }

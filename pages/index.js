@@ -17,7 +17,7 @@ export default function Home() {
               <a className="underline" href="https://clojuredocs.org/clojure.core/reduce">reduce</a>, and{" "}
               <a className="underline" href="https://clojuredocs.org/clojure.core/apply">apply</a></BingoCell>
           <BingoCell storageId="errors">Wondered if error messages could be clearer</BingoCell>
-          <BingoCell storageId="lein">Learned how to pronounce Leinigen</BingoCell>
+          <BingoCell storageId="lein">Learned how to pronounce Leiningen</BingoCell>
           <BingoCell storageId="unbounded-seq">Accidentally called a function that returned an unbounded sequence</BingoCell>
           <BingoCell storageId="fourclojure">Completed <a href="https://4clojure.oxal.org/">4clojure</a></BingoCell>
           <BingoCell storageId="multimethod">Defined a multimethod</BingoCell>
